@@ -12,7 +12,7 @@ class Io
      def initialize()
      end
 
-     def datos () 
+     def datos() 
       
       print "Dame Tu Nombre: "
 
@@ -25,7 +25,7 @@ class Io
       #puts "El Nombre #{nombre} Tiene #{nombre.length-1} Letras"
 
       puts "El Nombre #{nombre} Tiene #{nombre.length} Letras" 
-            
+
      end 
 
 
