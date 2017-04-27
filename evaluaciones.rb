@@ -2,6 +2,7 @@ class Evaluaciones
      def initialize()
      end
      def notas ()
+     	
      	print "Dame Tu Calificacion (1-5): "
 calificacion = gets.chomp.to_i
 
