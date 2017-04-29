@@ -1,14 +1,16 @@
-class Areglos
+class Arreglos
 
 	def initialize()	
 	end
 
     def Ejemplo()
+
+    	arreglo = []
     	
     end
 
 end
 
-objeto Areglos.new
+objeto Arreglos.new
 objeto.Ejemplo
 gets()
