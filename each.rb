@@ -6,7 +6,6 @@ class Ciclo
 	def initialize()
 	end
 
-
 	def ejemplo
 		
 		calificaciones = %w[5 4 4 5 4.5]
@@ -21,7 +20,7 @@ class Ciclo
 		puts "El Promedio De Tus calificaciones Es #{suma.to_f / calificaciones.length}"
 			
 		end
-	end
+end
 
 objeto = Ciclo.new
 objeto.ejemplo
