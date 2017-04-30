@@ -11,8 +11,8 @@ class Ciclo
 
 		suma = 0
 
-		calificaciones.each do |calificacion|
-			puts "Ahora La Calificacion Vale: #{calificacion}"
+		calificaciones.each_with_index do |calificacion, posicion|
+			puts "En La Posicion #{posicion} Temenos: #{calificacion}"
 		end
 			
 		end
