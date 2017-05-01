@@ -4,14 +4,15 @@
 #.sort para ordenar de mayor  a menor
 #.reverse lo contrario de reerse
 #%w para convertir los  arreglos en string
-
+# .first = te devuelve el primer elemento dentro del arreglo
+# .last = devuelve el ultimo elemento del arrego
 class Ciclo 
 	def initialize()
 	end
 
 	def ejemplo
 		
-		calificaciones = [5, 4, 4, 5, 4.5]
+		calificaciones = [5, 4, 4, 5, 4.5, "hola"]
 
 		#suma = 0
 
@@ -21,7 +22,10 @@ class Ciclo
 		#end
 		#puts "El Promedio De Tus calificaciones Es #{suma.to_f / calificaciones.length}"
 			
-		puts calificaciones.reverse
+		puts calificaciones.first
+
+		puts calificaciones.last
+
 		end
 end
 
