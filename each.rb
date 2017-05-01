@@ -10,15 +10,15 @@ class Ciclo
 		
 		calificaciones = %w[5 4 4 5 4.5]
 
-		suma = 0
+		#suma = 0
 
-		calificaciones.each_with_index do |calificacion, posicion| 
+		#calificaciones.each_with_index do |calificacion, posicion| 
 			#puts "En La Posicion #{posicion} Temenos: #{calificacion}"
-			suma += calificacion.to_i
-		end
-
-		puts "El Promedio De Tus calificaciones Es #{suma.to_f / calificaciones.length}"
+		#	suma += calificacion.to_i
+		#end
+		#puts "El Promedio De Tus calificaciones Es #{suma.to_f / calificaciones.length}"
 			
+		puts calificaciones*2	
 		end
 end
 
