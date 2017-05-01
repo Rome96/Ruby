@@ -2,6 +2,7 @@
 #with_index para mirar las posiciones de los arreglos
 # metodo length para ver la cantidad de elementos del arreglo
 #.sort para ordenar de mayor  a menor
+#.reverse lo contrario de reerse
 #%w para convertir los  arreglos en string
 
 class Ciclo 
@@ -20,7 +21,7 @@ class Ciclo
 		#end
 		#puts "El Promedio De Tus calificaciones Es #{suma.to_f / calificaciones.length}"
 			
-		puts calificaciones.sort
+		puts calificaciones.reverse
 		end
 end
 
