@@ -1,6 +1,8 @@
 # ciclo each
 #with_index para mirar las posiciones de los arreglos
 # metodo length para ver la cantidad de elementos del arreglo
+#.sort para ordenar de mayor  a menor
+#%w para convertir los  arreglos en string
 
 class Ciclo 
 	def initialize()
@@ -8,7 +10,7 @@ class Ciclo
 
 	def ejemplo
 		
-		calificaciones = %w[5 4 4 5 4.5]
+		calificaciones = [5, 4, 4, 5, 4.5]
 
 		#suma = 0
 
@@ -18,7 +20,7 @@ class Ciclo
 		#end
 		#puts "El Promedio De Tus calificaciones Es #{suma.to_f / calificaciones.length}"
 			
-		puts calificaciones*2	
+		puts calificaciones.sort
 		end
 end
 
