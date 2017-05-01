@@ -6,6 +6,9 @@
 #%w para convertir los  arreglos en string
 # .first = te devuelve el primer elemento dentro del arreglo
 # .last = devuelve el ultimo elemento del arrego
+# .uniq = para quitar elementos repetidos de un arreglo
+# .sample = devuelve cualquier elemento de el arreglo de manera aleatoria
+
 class Ciclo 
 	def initialize()
 	end
@@ -22,10 +25,12 @@ class Ciclo
 		#end
 		#puts "El Promedio De Tus calificaciones Es #{suma.to_f / calificaciones.length}"
 			
-		puts calificaciones.first
+		#puts calificaciones.first
+		#puts calificaciones.last
+         
+         #puts calificaciones.uniq
 
-		puts calificaciones.last
-
+         puts calificaciones.sample
 		end
 end
 
