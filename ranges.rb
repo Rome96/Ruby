@@ -11,8 +11,12 @@ class Ranges
        #  	puts numero
 
 
-       (0..20).step(2).each do |numero| # para contar de 2 en 2
-        	puts numero
+       # (0..20).step(2).each do |numero| # .step para realizar conteos ej: 2 en 2, 5 en 5. etc
+       #  	puts numero
+
+
+       ('a'..'z').each do |letras| 
+        	print letras + " , "
 	end
 	
 	end
