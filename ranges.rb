@@ -18,7 +18,6 @@ class Ranges
        # ('a'..'z').each do |letras|  # imprimir des la a hasta la z
        #  	print letras + " , "
        #end
-
        puts (0..20).to_a.reverse # .to_a para covertir de rangoa a arreglos
 	
 	
