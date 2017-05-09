@@ -27,6 +27,7 @@ class S_While
       	respuesta = gets().chomp.to_i
       	playing = respuesta != 0
       end
+#----------------------------------------------------------------------------
 
 
      
