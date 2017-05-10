@@ -6,20 +6,27 @@ class MasIteradores
 	
 	def ejemplo
 
-#imprimir del 1 - 10 con times
+    #imprimir del 1 - 10 con times
 	   # 10.times do |i|
 	   # 	puts i + 1
 	   # 	end
-#imprimir mensaje 10 veces
+    #imprimir mensaje 10 veces
 	   # 10.times do 
 	   # 	puts "me ejecutare 10 veces"
 	   # 	end
 #-------------------------------------------------------
-	   #imprimir del 1 - 10 con upto
+    # #imprimir del 1 - 10 con upto
+	   # 1.upto(10) do |i|
+	   # 	puts i
+	   # end
+#-------------------------------------------------------
+    #imprimir del 10 - 1
+         10.downto(1) do |i|
+         	puts i
+         end
 
-	   1.upto(10) do |i|
-	   	puts i
-	   end
+
+
 
 	end
 end
