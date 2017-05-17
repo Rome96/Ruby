@@ -1,23 +1,22 @@
-def palabra(value)
-	value.downcase!
-
+def palabra(turi)
+	turi.downcase!
 
 	frase = ""
-	count = value.length
+	count = turi.length
 
 	while count > 0
 		count -= 1
-		frase += value[count]
+		frase += turi[count]
 	end
 
-if value == frase
-	return "#{value} Si Es Polindroma"
-else
-	return "#{value} No Es Polindroma"
-	
-end
+	if turi == frase
+		return "#{turi} Si Es Polindroma"
+	else
+		return "#{turi} No Es Polindroma"
+		
+	end
 
-end
+	end
 print "Introduce Tu Palabra: "
 pala = gets.chomp
 p palabra(pala)
