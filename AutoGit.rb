@@ -29,6 +29,8 @@ class AutoGit
 
       	`git add -A
       	 git commit -m #{b}`
+
+      	 puts "no tienes net"
       	
       end
 		
