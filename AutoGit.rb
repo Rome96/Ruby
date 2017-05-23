@@ -29,7 +29,6 @@ class AutoGit
 
       	`git add -A
       	 git commit -m #{b}`
-
       	
       end
 		
