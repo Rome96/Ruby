@@ -1,6 +1,5 @@
 class AutoGit
-	def initialize()
-		
+	def initialize()	
 	end
 	
 	def gitt()
@@ -19,26 +18,18 @@ class AutoGit
 	end
 
 	def principal(a=gitt(),b=comentario())
-      
-      if a 
-      	`git add -A
-      	git commit -m #{b}
-      	git push -u origin master`
 
-      else 
-
-      	`git add -A
-      	 git commit -m #{b}`
-         
-         puts "NO Tienes internet"
-      	
-      end
-		
+	      if a 
+	      	`git add -A
+	      	 git commit -m #{b}
+	      	 git push -u origin master`
+	      else 
+	      	`git add -A
+	      	 git commit -m #{b}`
+	         puts "Conectate A internet Para Subir Los Cambios"
+          end	
 	end
-
 end
-
-
 
 puts("verifiacndo internet....")
 t = AutoGit.new
