@@ -26,7 +26,7 @@ class AutoGit
 	      else 
 	      	`git add -A
 	      	 git commit -m #{b}`
-	         puts "Conectate A internet Para Subir Los Cambios"
+	         puts "Commit Exitoso, Conectate A internet Para Subir Los Cambios"
           end	
 	end
 end
