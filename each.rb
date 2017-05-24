@@ -1,9 +1,8 @@
 # ciclo each
-#with_index para mirar las posiciones de los arreglos
+# with_index para mirar las posiciones de los arreglos
 # metodo length para ver la cantidad de elementos del arreglo
-#.sort para ordenar de mayor  a menor
+# .sort para ordenar de mayor  a menor
 #.reverse lo contrario de reerse
-#%w para convertir los  arreglos en string
 # .first = te devuelve el primer elemento dentro del arreglo
 # .last = devuelve el ultimo elemento del arrego
 # .uniq = para quitar elementos repetidos de un arreglo

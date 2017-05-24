@@ -21,11 +21,11 @@ class AutoGit
 
 	      if a 
 	      	`git add -A
-	      	 git commit -m #{b}
+	      	 git commit -m '#{b}'
 	      	 git push -u origin master`
 	      else 
 	      	`git add -A
-	      	 git commit -m #{b}`
+	      	 git commit -m '#{b}'`
 	         puts "Commit Exitoso, Conectate A internet Para Subir Los Cambios"
           end	
 	end
