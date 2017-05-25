@@ -3,7 +3,7 @@ class AutoGit
 	end
 	
 	def gitt()
-	    jue = `ping -c 2 -w 2 8.8.8.8 && echo $?`
+	    jue = `ping -c 2 -w 2 8.8.8.8`
 		if  jue[0] =='P'
 		   return true
 		else
@@ -18,7 +18,6 @@ class AutoGit
 	end
 
 	def principal(a=gitt(),b=comentario())
-
 	      if a 
 	      	`git add -A
 	      	 git commit -m '#{b}'
