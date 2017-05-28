@@ -1,3 +1,9 @@
+#Imprimir Elementos Abajo de la diagonal
+# strict_lower
+#----------------------------
+#Imprimir Elementos Arriba de la diagonal
+#strict_upper
+
 class Matrices
 	def initialize()
 	end
@@ -15,10 +21,10 @@ class Matrices
   #        puts i
 		# end  
 #-------------------------------------------------------
-
-	    require 'matrix'
-		matriz = Matrix[[3,5,6], [4,8,5], [7,6,3]]  #Imprimir la diagonal de una matriz
-		matriz.each(:diagonal) do |i|
+                                   
+	    require 'matrix'                             #Imprimir la diagonal de una matriz
+		matriz = Matrix[[3,5,6], [4,8,5], [7,6,3]]   
+		matriz.each(:diagonal) do |i|               
          puts i
 		end
 
