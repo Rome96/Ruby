@@ -3,8 +3,8 @@ class AutoGit
 	end
 	
 	def gitt()
-	    jue = `ping -c 2 -w 2 8.8.8.8`
-		if  jue[0] =='P'
+	    prueba = `ping -c 2 -w 2 8.8.8.8`
+		if  prueba [0] =='P'
 		   return true
 		else
 		   return false  	
@@ -13,8 +13,8 @@ class AutoGit
 
 	def comentario()
 	 	puts "Escriba Su Commit: "
-	    com = gets()
-	    return com
+	    comitar = gets()
+	    return comitar
 	end
 
 	def principal(a=gitt(),b=comentario())
