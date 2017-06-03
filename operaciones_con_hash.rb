@@ -3,6 +3,9 @@ class OperacionesConHash
 	end
 	
 	def inicio
+
+		programador = {name: "Turiano Romero", edad: "21", computer: 5}
+		 puts programador.length
 		
 	end
 	
