@@ -3,6 +3,7 @@
 # el metodo keys sirve para mostrar todas las claves del has
 # elmetodo values nos muestra el puro contenido de las claes
 # ""   ""  delete para eliminar una clave especifica del has
+# ""   ""  nos muestra la clave de un valor que ya conocemos
 class OperacionesConHash 
 	def initialize()
 	end
@@ -14,9 +15,11 @@ class OperacionesConHash
 		#puts programador.has_key?(:edad)
 		 #puts programador.keys
 
-		 programador.delete(:edad)
-         puts programador
+		 # programador.delete(:edad)
+         #puts programador
 		
+		puts programador.key(5)
+
 	end
 	
 end
