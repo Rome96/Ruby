@@ -1,6 +1,9 @@
-def hola_gente(*personas)
-	personas.each {|persona| puts "Hola #{persona}"}
+def hola_gente(mensaje, *personas)
+	#el metodo splat (*), toma todos argumentos como string
+	personas.each {|persona| puts "#{mensaje} #{persona}"}
 	
 end
 
-hola_gente "turiano", "jesus"
+nombres = ["turiano", "jesus"]
+
+hola_gente "Hey Hola", *nombres
