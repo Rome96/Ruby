@@ -16,12 +16,13 @@ class AutoGit
 	    comitar = gets()
 	    return comitar
 	end
-
+    
 	def principal(a=serv(),b=comentario())
 	      if a 
 	      	`git add -A
 	      	 git commit -m '#{b}'
 	      	 git push -u origin master`
+             puts "Subida Exitosa :D"
 	      else 
 	      	`git add -A
 	      	 git commit -m '#{b}'`
@@ -29,7 +30,6 @@ class AutoGit
           end	
 	end
 end
-
 puts("verifiacndo internet....")
 t = AutoGit.new
 t.principal
