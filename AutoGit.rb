@@ -2,7 +2,7 @@ class AutoGit
 	def initialize()	
 	end
 	
-	def gitt()
+	def serv()
 	    prueba = `ping -c 2 -w 2 8.8.8.8`
 		if  prueba [0] =='P'
 		   return true
@@ -17,7 +17,7 @@ class AutoGit
 	    return comitar
 	end
 
-	def principal(a=gitt(),b=comentario())
+	def principal(a=serv(),b=comentario())
 	      if a 
 	      	`git add -A
 	      	 git commit -m '#{b}'
