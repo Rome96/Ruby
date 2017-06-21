@@ -28,13 +28,7 @@ class S_While
       	playing = respuesta != 0
       end
 #----------------------------------------------------------------------------
-
-
-     
-
-
 	 end
-	
 end
 
 objeto = S_While.new
