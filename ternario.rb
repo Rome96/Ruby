@@ -1,13 +1,9 @@
 class Ternario 
 	def initialize
-		
 	end
-	
 	def inicio
-		 
 		 user = "JUan"
        
-
 		 #if user == "Turi"
 		 #	puts "Eres El Maestro"
 		 #else
@@ -23,11 +19,8 @@ class Ternario
          # end
          # puts respuesta
 
-         puts user == "Turi" ? "Maestro" : "Alumno"
-           
+         puts user == "Turi" ? "Maestro" : "Alumno"  
 	end
-	
 end
-
 objeto = Ternario.new
 objeto.inicio

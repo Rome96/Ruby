@@ -1,13 +1,13 @@
 $ejemplo = "Hola Soy Una Variable Global"
 class Variables
        def initialize()
-       @instancia = "Soy Una Variable De Instancia"
+           @instancia = "Soy Una Variable De Instancia"
        end 
        def alcance()
            local = "Soy Una Variable Local"
            puts local
-          puts @instancia
-          puts $ejemplo
+           puts @instancia
+           puts $ejemplo
        end
 end
 objeto = Variables.new()

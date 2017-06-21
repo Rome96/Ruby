@@ -8,9 +8,7 @@
 class OperacionesConHash 
 	def initialize()
 	end
-	
 	def inicio
-
 		programador = {name: "Turiano Romero", edad: "21", computer: 5}
 		# puts programador.length
 		#puts programador.has_key?(:edad)
@@ -18,11 +16,8 @@ class OperacionesConHash
 
 		 # programador.delete(:edad)
          #puts programador
-		
 		puts programador.invert
-
 	end
-	
 end
- t = OperacionesConHash.new
+t = OperacionesConHash.new
  t.inicio

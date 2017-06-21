@@ -3,7 +3,6 @@
 class Simbolos
 	def initialize()
 	end
-	
 	def ejemplo
 		cadena = "Turiano"
         cadena2 = "Turiano"
@@ -16,9 +15,7 @@ class Simbolos
 
         puts simbolo.object_id
         puts simbolo2.object_id
-	end
-	
+    end	
 end
-
 t = Simbolos.new
 t.ejemplo

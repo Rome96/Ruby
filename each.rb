@@ -11,27 +11,19 @@
 class Ciclo 
 	def initialize()
 	end
-
 	def ejemplo
-		
 		calificaciones = [5, 4, 4, 5, 4.5, "hola"]
-
 		#suma = 0
-
 		#calificaciones.each_with_index do |calificacion, posicion| 
 			#puts "En La Posicion #{posicion} Temenos: #{calificacion}"
 		#	suma += calificacion.to_i
 		#end
 		#puts "El Promedio De Tus calificaciones Es #{suma.to_f / calificaciones.length}"
-			
 		#puts calificaciones.first
 		#puts calificaciones.last
-         
-         #puts calificaciones.uniq
-
+        #puts calificaciones.uniq
          puts calificaciones.sample
-		end
+    end
 end
-
 objeto = Ciclo.new
 objeto.ejemplo

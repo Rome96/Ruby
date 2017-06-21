@@ -4,5 +4,4 @@ def hola_gente(mensaje, *personas)
 end
 
 nombres = ["Turiano", "Jesus", "Isaac"]
-
 hola_gente "Hey Hola", *nombres # el * combierte el arreglo en una lista

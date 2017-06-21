@@ -1,7 +1,6 @@
 class Ranges 
 	def initialize()
 	end
-
 	def rangos()
 		
 		# numeros = [1,2,3,4,5,6,7,8,9,10]
@@ -19,10 +18,7 @@ class Ranges
        #  	print letras + " , "
        #end
        puts (0..20).to_a.reverse # .to_a para covertir de rangoa a arreglos
-	
-	
 	end
 end
-
 objeto = Ranges.new	
 objeto.rangos
