@@ -13,3 +13,4 @@ class Video
 end
 
 curso_de_Ruby = Video.new
+curso_de_Ruby.title = "Objetos Y Clases"
