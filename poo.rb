@@ -1,4 +1,6 @@
 class Video
+  attr_accessor :minutes, :title
+  
   def play
   end
   
@@ -9,3 +11,5 @@ class Video
   end
   
 end
+
+curso_de_Ruby = Video.new
